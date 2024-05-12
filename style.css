@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.section {
+    width: 100%;
+    height: 100vh; /* 100% of viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Section 1 styles */
+#section1 {
+    background-color: #f1c40f; /* Yellow */
+    color: #000; /* Black */
+}
+
+/* Section 2 styles */
+#section2 {
+    background-color: #3498db; /* Blue */
+    color: #fff; /* White */
+}
+
+/* Section 3 styles */
+#section3 {
+    background-color: #e74c3c; /* Red */
+    color: #fff; /* White */
+}
